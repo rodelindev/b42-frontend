@@ -1,11 +1,15 @@
 import React from 'react';
-import { Button } from 'reactstrap';
+import Navigation from './components/Navigation';
 
 function App() {
   return (
-    <div>
-      <h1>Hola Cinta negra</h1>
-    </div>
+    <React.Fragment>
+      <Navigation />
+      <div className="container">
+        <h1>Hola Cinta negra</h1>
+      </div>
+    </React.Fragment>
+
   );
 }
 
