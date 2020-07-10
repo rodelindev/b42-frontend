@@ -3,7 +3,9 @@ import { Button } from 'reactstrap';
 
 function App() {
   return (
-    <h1>Hola Cinta negra</h1>
+    <div>
+      <h1>Hola Cinta negra</h1>
+    </div>
   );
 }
 
